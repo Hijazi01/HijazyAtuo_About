@@ -5,6 +5,9 @@
 
 }
 
+body{
+    overflow-x:hidden;
+}
 article{
     
     background-color: antiquewhite;
@@ -18,7 +21,6 @@ article{
     z-index:999;
  }
  
-
 
 /* .................................... svg bg...................................... */
 .custom-shape-divider-bottom-1680388389 {
