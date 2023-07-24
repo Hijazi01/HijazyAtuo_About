@@ -1,0 +1,88 @@
+*{
+    margin:0 ;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    overflow-x:hidden;
+}
+article{
+    
+    background-color: antiquewhite;
+}
+.prograph1 {
+    margin-top:250px;
+}
+.prograph-info{
+    font-size:20px;
+
+}
+  
+.arrow{
+    position: fixed;
+    top: 88%;
+    left: 48%;
+    z-index:999;
+ }
+ 
+
+/* .................................... svg bg...................................... */
+.custom-shape-divider-bottom-1680388389 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1680388389 svg {
+    position: relative;
+    display: block;
+    width: calc(136% + 1.3px);
+    height: 203px;
+}
+
+
+.custom-shape-divider-bottom-1680388558 .shape-fill {
+    fill: #ff1010;
+    background-color: #ff0000;
+}
+/* ///////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 1453px) {
+    .hide-img{
+      display: none;
+    }
+  
+  }
+  
+  @media screen and (max-width:453px) {
+    .center1{  
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .nav-small{
+      display: contents;
+      font-size: small;
+    }
+   
+    .prograph1 {
+        margin-top:0px;
+        margin-left: 1rem;
+    }
+    .row {
+        --bs-gutter-x: 1;
+    }
+    .hide{
+        display:none;
+
+    }
+    .prograph-info{
+        font-size:1rem;
+
+    }
+  }
