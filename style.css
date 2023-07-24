@@ -12,7 +12,13 @@ article{
     
     background-color: antiquewhite;
 }
+.prograph1 {
+    margin-top:250px;
+}
+.prograph-info{
+    font-size:20px;
 
+}
   
 .arrow{
     position: fixed;
@@ -39,8 +45,44 @@ article{
     height: 203px;
 }
 
+
 .custom-shape-divider-bottom-1680388558 .shape-fill {
     fill: #ff1010;
     background-color: #ff0000;
 }
 /* ///////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 1453px) {
+    .hide-img{
+      display: none;
+    }
+  
+  }
+  
+  @media screen and (max-width:453px) {
+    .center1{  
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .nav-small{
+      display: contents;
+      font-size: small;
+    }
+   
+    .prograph1 {
+        margin-top:0px;
+        margin-left: 1rem;
+    }
+    .row {
+        --bs-gutter-x: 1;
+    }
+    .hide{
+        display:none;
+
+    }
+    .prograph-info{
+        font-size:1rem;
+
+    }
+  }
